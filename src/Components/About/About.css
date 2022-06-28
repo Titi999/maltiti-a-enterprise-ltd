@@ -1,0 +1,54 @@
+.about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+.about .img{
+    flex: 1 1 42rem;
+    padding-bottom: 5rem;
+    padding-right: 5rem;
+}
+.about .img img{
+    width: 100%;
+    box-shadow: 4rem 4rem 0 #eee;
+}
+.about .content{
+    flex: 1 1 42rem;
+}
+.about .content .box{
+    padding: 3rem;
+    background: #eee;
+}
+.about .content .box h3{
+    font-size:2.5rem;
+    color: #222;
+}
+.about .content .box p{
+    padding: 1rem 0;
+    line-height: 2;
+    color: #666;
+    font-size:1.4rem;
+}
+.about .content .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.about .content .icons-container .icons{
+    flex: 1 1 16rem;
+    background: #eee;
+    padding:2rem;
+    text-align: center;
+}
+.about .content .icons-container .icons i{
+    color: #F08080;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+}
+.about .content .icons-container .icons p{
+    font-size:1.4rem;
+    color: #666;
+}

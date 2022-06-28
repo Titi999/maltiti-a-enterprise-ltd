@@ -1,0 +1,22 @@
+.banner .content{
+    max-width: 40rem;
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    padding: 2rem;
+    text-align: center;
+    margin: 10rem 0;
+}
+.banner .content span{
+    font-size:2rem;
+}
+.banner .content h3{
+    font-size:3rem;
+    color: #222;
+    padding-top: .5rem;
+}
+.banner .content p{
+    font-size: 1.4rem;
+    color: #666;
+    padding: 1rem 0;
+    line-height: 2;
+}

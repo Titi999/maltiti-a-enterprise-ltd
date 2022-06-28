@@ -1,0 +1,50 @@
+.gallery .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+    gap:2rem;
+}
+.gallery .box-container .box{
+    height:25rem;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+.gallery .box-container .box:hover .content{
+    display: flex;
+}
+.gallery .box-container .box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+.gallery .box-container .box .content{
+    background: rgba(255,255,255,0.8);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    padding:2rem;
+    text-align:center;
+    border:0.2rem solid #222;
+    display: none;
+}
+.gallery .box-container .box .content h3{
+    font-size: 2rem;
+    color: #222;
+    animation: fadeIn .2s linear backwards;
+}
+.gallery .box-container .box .content p{
+    font-size: 1.4rem;
+    color: #222;
+    padding:1rem 0;
+    line-height: 2;
+    animation: fadeIn .2s linear backwards .4s;
+}
+.gallery .box-container .box .content .btn{
+    animation: fadeIn .2s linear backwards .6s;
+}

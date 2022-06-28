@@ -1,0 +1,23 @@
+.category .box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap:2rem;
+}
+
+.category .box-container .box{
+    text-align:center;
+}
+
+.category .box-container .box:hover h3{
+    color: #F08080;
+}
+.category .box-container .box img{
+    height:14rem;
+    margin-bottom:1rem;
+}
+
+.category .box-container .box h3{
+    font-size:1.7rem;
+    color: #222;
+    font-weight: bold;
+}

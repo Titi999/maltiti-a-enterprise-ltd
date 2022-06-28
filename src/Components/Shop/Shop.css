@@ -1,0 +1,78 @@
+span{
+    color:#F08080;
+}
+
+.heading{
+    text-align: center;
+    color: #222;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+}
+
+.shop{
+    color: #eee;
+}
+.shop .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+    gap:2rem;
+}
+.shop .box-container .box{
+    text-align: center;
+    background: #fff;
+    border: 0.2rem solid #222;
+    box-shadow:0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+.shop .box-container .box:hover .img img{
+    transform:scale(1.1);
+}
+.shop .box-container .box:hover .img .icons{
+    transform:translateX(0rem);
+}
+.shop .box-container .box .img{
+    position: relative;
+    overflow: hidden;
+}
+.shop .box-container .box .img img{
+    height:25rem;
+}
+.shop .box-container .box .img .icons{
+    position:absolute;
+    top: 1rem;
+    left: 2rem;
+    transform:translateX(-10rem);
+}
+.shop .box-container .box .img .icons a{
+    display:block;
+    height:5rem;
+    width:5rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    color: #222;
+    border-radius: 0.2rem solid #222;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin-top:1rem;
+}
+.shop .box-container .box .img .icons a:hover{
+    color: #fff;
+    background:#F08080;
+}
+.shop .box-container .box .content{
+    padding:2rem;
+}
+.shop .box-container .box .content h3{
+    font-size:2rem;
+    color: #222;
+    padding-bottom: .5rem;
+    font-weight: normal;
+}
+.shop .box-container .box .content .price{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #F08080;
+}
+.shop .box-container .box .content .price span{
+    color: #666;
+    font-size:1.7rem;
+    text-decoration: line-through;
+}
