@@ -1,0 +1,37 @@
+.carousel{
+  width: 600px;
+  height: 380px;
+  margin: auto;
+}
+
+.carousel-control-prev{
+  height: 300px;
+  
+}
+
+
+.carousel-control-next {
+  height: 300px;
+  
+}
+
+.carousel .carousel-control-prev-icon{
+  visibility: hidden;
+  background-color: green;
+}
+
+.carousel:hover .carousel-control-prev-icon{
+  visibility: visible;
+  color: green;
+}
+
+.carousel .carousel-control-next-icon{
+  background-color: green;
+  visibility: hidden;
+  color: green;
+}
+
+.carousel:hover .carousel-control-next-icon{
+  visibility: visible;
+  color: green;
+}

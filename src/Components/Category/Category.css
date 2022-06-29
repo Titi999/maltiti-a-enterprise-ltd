@@ -9,7 +9,7 @@
 }
 
 .category .box-container .box:hover h3{
-    color: #F08080;
+    color: green;
 }
 .category .box-container .box img{
     height:14rem;

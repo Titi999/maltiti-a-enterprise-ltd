@@ -28,7 +28,7 @@
     letter-spacing: .1rem;
 }
 .home .slide .content span:hover{
-    color: #F08080;
+    color: green;
 }
 .home .slide .content h3{
     font-size:1.7rem;
@@ -60,7 +60,7 @@
 
 .home #next-slide:hover,
 .home #prev-slide:hover{
-    background: #F08080;
+    background: green;
     color: #fff;
 }
 
@@ -79,7 +79,7 @@
 }
 .btn:hover{
     letter-spacing: .1rem;
-    background: #F08080;
+    background: green;
     color: #fff;
 }
 

@@ -2,6 +2,7 @@
 import React from "react";
 import "./Header.css";
 import styled from "styled-components";
+import logo from '../../assets/6.jpg';
 import {useEffect} from "react";
 
 const Container = styled.header``;
@@ -25,7 +26,7 @@ const Header = () => {
     <Container className="App-header">
       
         <section id="header" className="header">
-            <a href="#home" className="logo"><i className="fas fa-female"></i> Maltiti</a>
+            <a href="#home" className="logo"><img alt="" src={ logo } width="60px"/></a>
             <nav className="navbar">
                 <a href="#home">home</a> 
                 <a href="#about">about</a> 
@@ -37,8 +38,8 @@ const Header = () => {
 
             <div className="icons">
                 <div id="menu-btn" className="fas fa-bars"></div>
-                {/* <a href="#home" class="fas fa-heart"></a>
-                <a href="#home" class="fas fa-shopping-cart"></a> */}
+                <a href="#home" class="fas fa-heart"></a>
+                <a href="#home" class="fas fa-shopping-cart"></a>
             </div>
         </section>
     </Container>

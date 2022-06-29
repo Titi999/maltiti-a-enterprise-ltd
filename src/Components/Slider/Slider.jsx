@@ -1,7 +1,7 @@
 import React from "react";
 import "./Slider.css";
 import styled from "styled-components";
-import sliderImage from '../../assets/1.jpg';
+import sliderImage from '../../assets/blog-2.jpg';
 import sliderImage1 from '../../assets/2.jpg';
 import sliderImage2 from '../../assets/3.jpg';
 
@@ -9,7 +9,7 @@ const Container = styled.section``;
 
 var backgroundImage = {
     backgroundImage: `url(${sliderImage})`,
-    backgroundSize: "cover",
+    backgroundSize: "300px 100px;",
     backgroundPosition: "center"
   };
 
@@ -53,7 +53,7 @@ function prev() {
 
       <div className="slide" style={ backgroundImage1 }>
             <div className="content">
-                <span>forever <br/> beautiful</span>
+            <span>MALTITI A.<br/>ENTERPRISE LIMITED</span>
                 <h3>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>
                     sed do eiusmod tempor farhan ut labore et dolore magna aliqua.<br/>
                     Lorem, ipsum dolor 
@@ -64,7 +64,7 @@ function prev() {
 
     <div className="slide" style={ backgroundImage2 }>
             <div className="content">
-                <span>forever <br/> beautiful</span>
+                <span>MALTITI A.<br/>ENTERPRISE LIMITED</span>
                 <h3>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>
                     sed do eiusmod tempor farhan ut labore et dolore magna aliqua.<br/>
                     Lorem, ipsum dolor 

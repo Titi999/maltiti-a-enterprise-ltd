@@ -17,7 +17,7 @@
     font-weight: bolder;
 }
 .header .logo i{
-    color: #F08080;
+    color: green;
 }
 .header .navbar a{
     margin: 0 1.5rem;
@@ -25,7 +25,7 @@
     color: #222;
 }
 .header .navbar a:hover{
-    color: #F08080;
+    color: green;
 }
 .header .icons div,
 .header .icons a{
@@ -42,7 +42,7 @@
 }
 .header .icons a:hover,
 .header .icons div:hover{
-    background: #F08080;
+    background: green;
     color: #fff;
 }
 .header #menu-btn{

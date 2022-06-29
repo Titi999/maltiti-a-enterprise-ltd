@@ -24,7 +24,7 @@
     border-radius: 0.2rem solid #222;
 }
 .message form .box:focus{
-    border-color:#F08080;
+    border-color:green;
 }
 .message form textarea{
     height:15rem;

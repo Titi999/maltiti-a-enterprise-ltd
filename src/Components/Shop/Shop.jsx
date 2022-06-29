@@ -33,7 +33,7 @@ const Shop = () => {
             </div>
             <div className="content">
                 <h3>airbrush matte</h3>
-                <div className="price">$40-<span>$200.99</span></div>
+                <div className="price">GH₵40-<span>GH₵200.99</span></div>
                 <a href="#cart" className="btn">add to cart</a>
             </div>
         </div>
@@ -49,7 +49,7 @@ const Shop = () => {
             </div>
             <div className="content">
                 <h3>lactic acid treatment</h3>
-                <div className="price">$40-<span>$200.99</span></div>
+                <div className="price">GH₵40-<span>GH₵200.99</span></div>
                 <a href="#addcart" className="btn">add to cart</a>
             </div>
         </div>
@@ -65,7 +65,7 @@ const Shop = () => {
             </div>
             <div className="content">
                 <h3>midnight must</h3>
-                <div className="price">$40-<span>$200.99</span></div>
+                <div className="price">GH₵40-<span>GH₵200.99</span></div>
                 <a href="#cart" className="btn">add to cart</a>
             </div>
         </div>
@@ -81,7 +81,7 @@ const Shop = () => {
             </div>
             <div className="content">
                 <h3>face & body foundation</h3>
-                <div className="price">$40-<span>$200.99</span></div>
+                <div className="price">GH₵40-<span>GH₵200.99</span></div>
                 <a href="#" className="btn">add to cart</a>
             </div>
         </div>
@@ -97,7 +97,7 @@ const Shop = () => {
             </div>
             <div className="content">
                 <h3>eyeliner pack</h3>
-                <div className="price">$40-<span>$200.99</span></div>
+                <div className="price">GH₵40-<span>GH₵200.99</span></div>
                 <a href="#" className="btn">add to cart</a>
             </div>
         </div>
@@ -113,7 +113,7 @@ const Shop = () => {
             </div>
             <div className="content">
                 <h3>moisture balam</h3>
-                <div className="price">$40-<span>$200.99</span></div>
+                <div className="price">GH₵40-<span>GH₵200.99</span></div>
                 <a href="#" className="btn">add to cart</a>
             </div>
         </div>

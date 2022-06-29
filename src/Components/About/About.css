@@ -11,14 +11,14 @@
 }
 .about .img img{
     width: 100%;
-    box-shadow: 4rem 4rem 0 #eee;
+    box-shadow: 4rem 4rem 0 white;
 }
 .about .content{
     flex: 1 1 42rem;
 }
 .about .content .box{
     padding: 3rem;
-    background: #eee;
+    background: white;
 }
 .about .content .box h3{
     font-size:2.5rem;
@@ -44,7 +44,7 @@
     text-align: center;
 }
 .about .content .icons-container .icons i{
-    color: #F08080;
+    color: green;
     margin-bottom: 1rem;
     font-size: 5rem;
 }

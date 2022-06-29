@@ -7,7 +7,7 @@ const Container = styled.section``;
 
 const Banner = () => {
     var backgroundImage = {
-        backgroundImage: `url(${backgroudImg})`,
+        backgroundImage: `url(GH₵{backgroudImg})`,
         backgroundSize: "cover",
         backgroundPosition: "center"
       };

@@ -33,7 +33,7 @@
     width:8rem;
     border: 0.5rem solid #fff;
     border-radius: 50%;
-    background: #F08080;
+    background: green;
     text-align: center;
     padding-top: 1rem;
 }
@@ -54,17 +54,17 @@
 }
 .blogs .box-container .box .content .user i{
     padding-right: .5rem;
-    color: #F08080;
+    color: green;
 }
 .blogs .box-container .box .content .user:hover{
-    color: #F08080;
+    color: green;
 }
 .blogs .box-container .box .content .title{
     font-size: 2rem;
     color: #222;
 }
 .blogs .box-container .box .content .title:hover{
-    color: #F08080;
+    color: green;
 }
 .blogs .box-container .box .content p{
     padding:1rem 0;

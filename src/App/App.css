@@ -27,7 +27,7 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-thumb{
-  background: #F08080;
+  background: green;
 }
 
 section{
@@ -35,7 +35,7 @@ section{
 }
 
 span{
-  color:#F08080;
+  color:green;
 }
 
 @keyframes fadeIn{

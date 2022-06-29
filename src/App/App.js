@@ -14,6 +14,7 @@ import SimpleSlider from '../Components/Partners/Partners';
 import Staff from '../Components/Staff/Staff';
 import Testimony from '../Components/Testimony/Testimony';
 import Location from '../Components/Location/Location';
+import Videos from '../Components/Videos/Videos';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Gallery></Gallery>
       <Message></Message>
       <Blog></Blog>
+      <Videos></Videos>
       <Testimony></Testimony>
       <Location></Location>
       <Staff></Staff>

@@ -8,7 +8,7 @@ import msgImg from '../../assets/message-bg.png';
 const Container = styled.section``;
 
 var backgroundImage = {
-    backgroundImage: `url(${msgImg})`,
+    backgroundImage: `url(GH₵{msgImg})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
   };

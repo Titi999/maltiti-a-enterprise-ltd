@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import styled from "styled-components";
-import about from '../../assets/about-img.jpg';
+import about from '../../assets/4.jpg';
 
 
 

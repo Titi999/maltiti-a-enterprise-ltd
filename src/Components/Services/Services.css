@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
     gap:2rem;
-    background: #F08080;
+    background: green;
 }
 .services .box{
     text-align: center;

@@ -1,32 +1,38 @@
-import React from "react";
-import "./Location.css";
+import React, { Component } from 'react';
+import { GoogleMap, LoadScript } from '@react-google-maps/api';
 import styled from "styled-components";
-import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
-
-
 
 const Container = styled.section``;
 
-const Location = () => {
-  
-  
-  return (
-    <Container>
-        <Map google={this.props.google} zoom={14}>
- 
- <Marker onClick={this.onMarkerClick}
-         name={'Current location'} />
-
- <InfoWindow onClose={this.onInfoWindowClose}>
-     <div>
-       <h1>{this.state.selectedPlace.name}</h1>
-     </div>
- </InfoWindow>
-</Map>
-    </Container>
-  );
+const containerStyle = {
+  width: '100%',
+  height: '400px'
 };
 
-export default GoogleApiWrapper({
-    apiKey: ("AIzaSyAX--wRRY1096YG5_Psc0D09hrJ6Up8tx4")
-  })(Location)
+const center = {
+  lat: 9.4778122,
+  lng: -0.88135407
+};
+
+class Location extends Component {
+  render() {
+    return (
+      <Container className="gallery" id="gallery">
+        <h1 className="heading">Our <span>Location</span></h1>
+      <LoadScript
+        googleMapsApiKey="AIzaSyC7kp94PJXor3UxV6ThQRZeqmQRn7LaFao"
+      >
+        <GoogleMap
+          mapContainerStyle={containerStyle}
+          center={center}
+          zoom={14}
+        >
+          
+        </GoogleMap>
+      </LoadScript>
+      </Container>
+    )
+  }
+}
+
+export default Location;

@@ -37,8 +37,8 @@ const Footer = () => {
                 <h3>contact info</h3>
                 <a className="link" href="#link"> <i className="fas fa-phone"></i> +123-456-7890 </a>
                 <a className="link" href="#link"> <i className="fas fa-phone"></i> +111-222-3333 </a>
-                <a className="link" href="#link"> <i className="fas fa-envelope"></i> shaikhfarhan@gmail.com </a>
-                <a className="link" href="#link"> <i className="fas fa-map"></i> mumbai, india - 401203 </a>
+                <a className="link" href="#link"> <i className="fas fa-envelope"></i> abubakari@gmail.com </a>
+                <a className="link" href="#link"> <i className="fas fa-map"></i> Tamale, Ghana </a>
                 <div className="share">
                     <a href="#link" className="fab fa-facebook-f"></a>
                     <a href="#link" className="fab fa-twitter"></a>
